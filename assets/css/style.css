@@ -158,6 +158,7 @@ main {
 .meet-the-author>p{
     text-align: center;
     max-width: 90%;
+    margin-bottom: 2rem;
 }
 
 #author-img{
