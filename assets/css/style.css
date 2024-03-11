@@ -50,7 +50,7 @@ header h1 {
     align-content: center;
     display: flex;
     flex-direction: row;
-    background-color: #469884;
+    background-color: #337061;
 
 }
 
@@ -108,11 +108,11 @@ header h1 {
 /* color change on nav button hover and active*/
 .nav-bar .nav-links .active,
 .nav-links a:hover {
-    background-color: #AF3F1D;
+    background-color: #772b13;
 }
 
 main {
-    background-color: #469884;
+    background-color: #337061;
     flex: 1 0 auto;
 }
 
@@ -376,7 +376,7 @@ label, legend {
     }
 
     .nav-bar {
-        background-color: #469884;
+        background-color: #337061;
         width: 33%;
     }
 
