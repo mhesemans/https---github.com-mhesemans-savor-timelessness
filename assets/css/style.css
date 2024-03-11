@@ -38,17 +38,18 @@ header h1 {
 
 /* style for nav-bar */
 
-.nav-bar, .nav-links {
+.nav-bar,
+.nav-links {
     width: 100%;
     align-content: center;
     display: flex;
     flex-direction: row;
-    width: 100%;
     background-color: #469884;
 }
 
+/* div around links to give some spacing */
 .link-box {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
@@ -56,7 +57,7 @@ header h1 {
 
 /* remove bulletpoints from nav, expand button width */
 .nav-links li {
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 /* font and button styling for nav links */
@@ -104,4 +105,48 @@ header h1 {
 main {
     background-color: #469884;
     height: 40rem;
+}
+
+
+/* Media Query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 4rem;
+        background-color: #1FEDBB;
+    }
+
+    /* navigation buttons height and background*/
+    .nav-bar,
+    .nav-links {
+        background-color: #1FEDBB;
+        height: 100%;
+    }
+
+    .nav-links>li,
+    .link-box,
+    .link-box>a {
+        height: 100%;
+    }
+
+    /* removing rounding on link-boxes */
+    #nav-link-home {
+        border-radius: 0 0 0 0;
+        padding-left: 20px;
+    }
+
+
+    #nav-link-contact {
+        border-radius: 0 0 0 0;
+        padding-right: 20px;
+    }
+
+    .link-box>a {
+        font-size:large ;
+    }
+
 }
