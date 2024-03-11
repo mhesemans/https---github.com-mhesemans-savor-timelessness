@@ -11,7 +11,11 @@
     color: #ffffff;
     font-family: 'EB Garamond', sans-serif;    
 }
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 /* style for header title */
 
 header {
@@ -151,7 +155,7 @@ main {
 }
 
 /* Meet the author section, column layout for mobile and tablets */
-.meet-the-author {
+.text-centered {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,7 +186,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
+bottom: 0;
 }
 
 footer {
@@ -210,6 +214,47 @@ footer {
 padding-bottom: 1rem;
 }
 
+/* contact page styling */
+/* Form styling */
+.contact-form {
+    flex-grow: 1;
+    margin: 2rem 0.3rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, legend {
+    color: #456E4D;
+    padding: 0.5rem 0;
+}
+
+/* Placeholder image styling */
+.placeholder-image>img {
+    flex-grow: 1;
+    width: 100%;
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #ED8D1F;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #ED501F;
+}
+
+#registration-confirmation{
+    padding: 3rem 1rem;
+}
 
 /* Media Query: smaller mobiles (318px and lower) */
 @media screen and (max-width:318px) {
@@ -282,7 +327,7 @@ padding-bottom: 1rem;
 
     /* meet the author styling */
 
-    .meet-the-author {
+    .text-centered {
         text-align: center;
         display: block;
         width: 100%;
@@ -306,6 +351,7 @@ padding-bottom: 1rem;
     }
 
 }
+
 
 /* Media Query: laptops and larger (1024 px and up), previously 1080px but changed to match chrome devtools option */
 @media screen and (min-width:1024px) {
