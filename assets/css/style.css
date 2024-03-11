@@ -125,12 +125,14 @@ main {
     .nav-links {
         background-color: #1FEDBB;
         height: 100%;
+        /* Adjust specificity here */
     }
 
     .nav-links>li,
     .link-box,
     .link-box>a {
         height: 100%;
+        /* Adjust specificity here */
     }
 
     /* removing rounding on link-boxes */
@@ -146,7 +148,35 @@ main {
     }
 
     .link-box>a {
-        font-size:large ;
+        font-size: large;
     }
 
+}
+
+
+/* Media Query: laptops and larger (1080 px and up) */
+@media screen and (min-width:1080px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 4rem;
+        background-color: #1FEDBB;
+    }
+
+    #title-box {
+        background-color: #1FEDBB;
+        width: 66%;
+    }
+
+    header h1 {       
+        text-align: left;
+        margin-left: 4rem;
+        font-size: large;
+    }
+
+    .nav-bar {
+        background-color: #469884;
+        width: 33%;
+    }
 }
