@@ -9,7 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'EB Garamond', sans-serif;    
 }
 
 /* style for header title */
@@ -111,6 +111,10 @@ main {
     flex: 1 0 auto;
 }
 
+.orange-text{
+    color:#ecb679;
+}
+
 /* Hero image styling */
 .hero-img>img {
     width: 100%;
@@ -200,6 +204,10 @@ footer {
 .book-images p {
     text-align: center;
     margin: 0.5em;
+}
+
+#section-wrap {
+padding-bottom: 1rem;
 }
 
 
