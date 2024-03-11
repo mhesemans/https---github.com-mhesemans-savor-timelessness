@@ -146,6 +146,26 @@ main {
     font-style: italic;
 }
 
+/* Meet the author section */
+
+.meet-the-author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2   px;
+}
+
+.meet-the-author>p{
+    text-align: center;
+    max-width: 90%;
+}
+
+#author-img{
+    height: 75vw;
+    margin: 20px;
+    
+}
+
 /* Footer */
 #footer-icons {
     text-align: center;
