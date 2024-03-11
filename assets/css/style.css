@@ -193,7 +193,14 @@ footer {
     color: #456E4D;
 }
 
+.book-images img {
+    width: 100%;
+}
 
+.book-images p {
+    text-align: center;
+    margin: 0.5em;
+}
 
 
 /* Media Query: smaller mobiles (318px and lower) */
@@ -320,10 +327,19 @@ footer {
         width: 33%;
     }
 
+    /* section wrap for author and book images */
+
+    #section-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* meet the author styling */
     .meet-the-author {
         text-align: left;
-        display: block;
-        width: 60%;
+        flex-grow: 1.2;
     }
 
     .meet-the-author>h2 {
@@ -335,5 +351,17 @@ footer {
 
     #img-txt-wrap p {
         font-size: 120%;
+    }
+
+    /* book images styling */
+    .book-images {
+        flex-grow: 0.8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-images img {
+        width: 90%;
     }
 }
