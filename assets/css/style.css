@@ -23,7 +23,6 @@ header {
 #title-box {
     background-color: #1FEDBB;
     width: 100%;
-
 }
 
 header a {
@@ -64,7 +63,7 @@ header h1 {
     list-style-type: none;
 }
 
-/* font and button styling for nav links */
+/* font and button styling for nav links adapted using information in https://www.w3schools.com/html/html_links.asp */
 .nav-links a {
     margin-right: 1px;
     color: #ffffff;
@@ -80,7 +79,7 @@ header h1 {
     width: 100%;
     font-family: 'Lato', sans-serif;
 }
-
+/* border-radius composed using https://www.w3schools.com/cssref/tryit.php?filename=trycss3_border-radius  */
 /* border-radius on bottom left corner for nav home button */
 #nav-link-home {
     border-radius: 8px 0 0 50px;
@@ -122,6 +121,7 @@ main {
     position: relative;
 }
 
+/* used https://www.w3schools.com/cssref/pr_class_position.php "try it yourself" to find best positioning */
 .hero-text {
     position: absolute;
     bottom: 5%;
@@ -146,8 +146,7 @@ main {
     font-style: italic;
 }
 
-/* Meet the author section */
-
+/* Meet the author section, column layout for mobile and tablets */
 .meet-the-author {
     display: flex;
     flex-direction: column;
@@ -172,7 +171,7 @@ main {
     margin: 20px;
 }
 
-/* Footer */
+/* Footer - based on love running project by CodeInstitute */
 #footer-icons {
     text-align: center;
     padding: 20px 0;
@@ -193,6 +192,7 @@ footer {
     color: #456E4D;
 }
 
+/* base styling for book images used for sizes smaller than laptop*/
 .book-images img {
     width: 100%;
 }
@@ -206,6 +206,7 @@ footer {
 /* Media Query: smaller mobiles (318px and lower) */
 @media screen and (max-width:318px) {
 
+    /* this style was added to better fit the hero text on the image as font-size was causing text to bleed into other areas */
     .hero-text {
         font-size: smaller;
         text-align: right;
@@ -230,14 +231,12 @@ footer {
     .nav-links {
         background-color: #1FEDBB;
         height: 100%;
-        /* Adjust specificity here */
     }
 
     .nav-links>li,
     .link-box,
     .link-box>a {
         height: 100%;
-        /* Adjust specificity here */
     }
 
     /* removing rounding on link-boxes */
@@ -245,7 +244,6 @@ footer {
         border-radius: 0 0 0 0;
         padding-left: 20px;
     }
-
 
     #nav-link-contact {
         border-radius: 0 0 0 0;
@@ -255,7 +253,7 @@ footer {
     .link-box>a {
         font-size: large;
     }
-
+/* hiding quote as did not look as good on larger screen sizes */
     .quote {
         display: none;
     }
@@ -281,7 +279,7 @@ footer {
         display: block;
         width: 100%;
     }
-
+/* div container to allow text and image to be displayed side by side */
     #img-txt-wrap {
         display: flex;
         flex-direction: row;
@@ -301,8 +299,8 @@ footer {
 
 }
 
-/* Media Query: laptops and larger (1080 px and up) */
-@media screen and (min-width:1080px) {
+/* Media Query: laptops and larger (1024 px and up), previously 1080px but changed to match chrome devtools option */
+@media screen and (min-width:1024px) {
     header {
         display: flex;
         flex-direction: row;
@@ -310,7 +308,7 @@ footer {
         height: 4rem;
         background-color: #1FEDBB;
     }
-
+/* giving title area more space on the screen as the nav bar did not look as good when taking up half the space on larger screens */
     #title-box {
         background-color: #1FEDBB;
         width: 66%;
@@ -353,7 +351,7 @@ footer {
         font-size: 120%;
     }
 
-    /* book images styling */
+    /* book images styling, displays images next to meet the author section rather than below in a column */
     .book-images {
         flex-grow: 0.8;
         display: flex;
