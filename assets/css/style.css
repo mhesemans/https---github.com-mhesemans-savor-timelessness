@@ -124,7 +124,7 @@ main {
 
 .hero-text {
     position: absolute;
-    top: 10%;
+    bottom: 5%;
     right: 0;
     background-color: rgba(237, 80, 31, 0.6);
     padding: 10px;
@@ -138,7 +138,7 @@ main {
 }
 
 .hero-text p {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .text>p {
@@ -146,6 +146,36 @@ main {
     font-style: italic;
 }
 
+/* Footer */
+#footer-icons {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+footer {
+    display: block;
+    background-color: #1FEDBB;
+}
+
+#footer-icons i {
+    font-size: 200%;
+    padding: 5%;
+    color: #456E4D;
+}
+
+/* Media Query: smaller mobiles (318px and lower) */
+@media screen and (max-width:318px) {
+
+    .hero-text {
+        font-size: smaller;
+        text-align: right;
+        padding: 4px;
+    }
+}
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
 
@@ -200,9 +230,10 @@ main {
     }
     main .hero-text {
         font-size: 150%;
-        top: 30%;
+        top: 15%;
         right: 30%;
         left: 30%;
+        max-height: fit-content;
     }
 
 }
