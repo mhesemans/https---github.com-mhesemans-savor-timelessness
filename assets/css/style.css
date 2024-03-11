@@ -389,12 +389,12 @@ label, legend {
     }
 
     /* meet the author styling */
-    .meet-the-author {
+    .text-centered {
         text-align: left;
-        flex-grow: 1.2;
+        flex-grow: 2;
     }
 
-    .meet-the-author>h2 {
+    .text-centered>h2 {
         margin-top: 1rem;
         text-align: center;
         font-size: 150%;
@@ -407,13 +407,25 @@ label, legend {
 
     /* book images styling, displays images next to meet the author section rather than below in a column */
     .book-images {
-        flex-grow: 0.8;
+        flex-grow: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 33%;
     }
 
     .book-images img {
         width: 90%;
+    }
+}
+
+/* Media Query: laptops and larger (1200 px and up), previously 1080px but changed to match chrome devtools option */
+@media screen and (min-width:1200px) {
+    .book-images {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
     }
 }
