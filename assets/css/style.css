@@ -71,7 +71,7 @@ header h1 {
 .nav-links a {
     margin-right: 1px;
     color: #ffffff;
-    background-color: #ED8D1F;
+    background-color: #B44422;
     padding: 3px 10px;
     border: none;
     display: flex;
@@ -108,7 +108,7 @@ header h1 {
 /* color change on nav button hover and active*/
 .nav-bar .nav-links .active,
 .nav-links a:hover {
-    background-color: #ED501F;
+    background-color: #AF3F1D;
 }
 
 main {
