@@ -94,8 +94,8 @@ header h1 {
     padding-left: 20px;
 }
 
-/* border-radius on bottom right corner for nav contact button */
-#nav-link-contact {
+/* border-radius on bottom right corner for nav survey button */
+#nav-link-survey {
     border-radius: 0 8px 50px 0;
     padding-right: 20px;
 }
@@ -228,7 +228,7 @@ footer {
 
 
 
-/* contact page styling */
+/* survey page styling */
 /* Form styling */
 
 .text-centered>h2,
@@ -236,7 +236,7 @@ footer {
     margin: 1rem 2rem;
 }
 
-.contact-form {
+.survey-form {
     flex-grow: 1;
     margin: 2rem 0.3rem;
     padding: 0.5rem;
@@ -326,7 +326,7 @@ fieldset {
         padding-left: 20px;
     }
 
-    #nav-link-contact {
+    #nav-link-survey {
         border-radius: 0 0 0 0;
         padding-right: 20px;
     }
@@ -448,7 +448,7 @@ fieldset {
         width: 90%;
     }
 
-    /* contact form styling */
+    /* survey form styling */
 
     /* Placeholder image styling */
     .placeholder-image>img {
