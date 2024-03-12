@@ -280,8 +280,28 @@ fieldset {
     background-color: #ED501F;
 }
 
+/* text styling on form submit page */
 #registration-confirmation {
     padding: 3rem 1rem;
+}
+
+/* recipe page styling */
+.recipe-wrap{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipe-hero-img{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.recipe-hero-text{
+display: flex;
+flex-direction: column;
+height: 100%;
+padding: 16px 0 24px;
+
 }
 
 /* Media Query: smaller mobiles (318px and lower) */
