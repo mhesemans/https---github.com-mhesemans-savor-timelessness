@@ -286,31 +286,59 @@ fieldset {
 }
 
 /* recipe page styling */
-.recipe-wrap{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
+/* Recipe Hero Section */
+.recipe-hero {
+    position: relative;
 }
-.recipe-hero-img{
+
+.recipe-hero-img {
+    margin-top: 1rem;
     width: 100%;
-    margin: 1rem 0;
 }
 
-.recipe-hero-text{
-flex: 1 1 auto;
-display: flex;
-flex-direction: column;
-height: 100%;
-padding: 16px 0 24px;
-position: absolute;
-top: 0;
-justify-content: end;
-text-align: center;
+.recipe-hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    background-color: rgba(180,68,34, 0.5);
+    color: #fff;
 }
 
-.recipe-hero-text > h2,.recipe-hero-text > h4 {
-    background-color: rgba(212, 113, 26, 0.5);
+.recipe-hero-text h2,
+.recipe-hero-text h4 {
+    padding-bottom: 6px;
+}
+
+/* Ingredients Section */
+.ingredients-section {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients-wrap {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ingredients-wrap h2 {
+    text-align: center;
+    color: #2a442f;
+    padding-bottom: 1rem;
+}
+/* autofill grid layout for ingredients, 2-3 columns for mobile */
+.ingredients-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 116px));
+    gap: 10px;
+    padding-left: 1rem;
+}
+
+.ingredients-list li {
+    margin-bottom: 10px;
+    color: black;
 }
 
 /* Media Query: smaller mobiles (318px and lower) */
