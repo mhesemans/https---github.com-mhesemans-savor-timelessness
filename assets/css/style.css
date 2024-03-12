@@ -233,6 +233,10 @@ label, legend {
     padding: 0.5rem 0;
 }
 
+fieldset {
+    padding: 0.3rem 1rem;
+}
+
 /* Placeholder image styling */
 .placeholder-image>img {
     flex-grow: 1;
