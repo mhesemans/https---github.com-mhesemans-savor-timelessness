@@ -9,13 +9,15 @@
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
-    font-family: 'EB Garamond', sans-serif;    
+    font-family: 'EB Garamond', sans-serif;
 }
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 /* style for header title */
 
 header {
@@ -84,6 +86,7 @@ header h1 {
     width: 100%;
     font-family: 'Lato', sans-serif;
 }
+
 /* border-radius composed using https://www.w3schools.com/cssref/tryit.php?filename=trycss3_border-radius  */
 /* border-radius on bottom left corner for nav home button */
 #nav-link-home {
@@ -116,8 +119,8 @@ main {
     flex: 1 0 auto;
 }
 
-.orange-text{
-    color:#ecb679;
+.orange-text {
+    color: #ecb679;
 }
 
 /* Hero image styling */
@@ -170,7 +173,7 @@ main {
     justify-content: center;
 }
 
-#img-txt-wrap > p {
+#img-txt-wrap>p {
     margin: 1rem 0.5rem;
 }
 
@@ -191,7 +194,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-bottom: 0;
+    bottom: 0;
 }
 
 footer {
@@ -216,11 +219,11 @@ footer {
 }
 
 #section-wrap {
-padding-bottom: 1rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -228,9 +231,11 @@ justify-content: space-around;
 /* contact page styling */
 /* Form styling */
 
-.text-centered > h2, .text-centered > p{
+.text-centered>h2,
+.text-centered>p {
     margin: 1rem 2rem;
 }
+
 .contact-form {
     flex-grow: 1;
     margin: 2rem 0.3rem;
@@ -242,7 +247,8 @@ justify-content: space-around;
     letter-spacing: normal;
 }
 
-label, legend {
+label,
+legend {
     color: #456E4D;
     padding: 0.5rem 0;
 }
@@ -274,7 +280,7 @@ fieldset {
     background-color: #ED501F;
 }
 
-#registration-confirmation{
+#registration-confirmation {
     padding: 3rem 1rem;
 }
 
@@ -328,7 +334,8 @@ fieldset {
     .link-box>a {
         font-size: large;
     }
-/* hiding quote as did not look as good on larger screen sizes */
+
+    /* hiding quote as did not look as good on larger screen sizes */
     .quote {
         display: none;
     }
@@ -354,7 +361,8 @@ fieldset {
         display: block;
         width: 100%;
     }
-/* div container to allow text and image to be displayed side by side */
+
+    /* div container to allow text and image to be displayed side by side */
     #img-txt-wrap {
         display: flex;
         flex-direction: row;
@@ -374,7 +382,6 @@ fieldset {
 
 }
 
-
 /* Media Query: laptops and larger (1024 px and up), previously 1080px but changed to match chrome devtools option */
 @media screen and (min-width:1024px) {
     header {
@@ -384,7 +391,8 @@ fieldset {
         height: 4rem;
         background-color: #1FEDBB;
     }
-/* giving title area more space on the screen as the nav bar did not look as good when taking up half the space on larger screens */
+
+    /* giving title area more space on the screen as the nav bar did not look as good when taking up half the space on larger screens */
     #title-box {
         background-color: #1FEDBB;
         width: 66%;
@@ -438,6 +446,17 @@ fieldset {
 
     .book-images img {
         width: 90%;
+    }
+
+    /* contact form styling */
+
+    /* Placeholder image styling */
+    .placeholder-image>img {
+        margin-left: 3rem;
+        border-radius: 10px;
+        flex-grow: 1;
+        width: 100%;
+        max-height: 400px;
     }
 }
 
