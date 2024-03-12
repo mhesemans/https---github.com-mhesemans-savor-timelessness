@@ -6,3 +6,9 @@ bug - flex-grow for nav-size-normal and nav-size-big wasn't working. Idenntified
 
 bug - nav link text is not center, i figured it needed a div width to reference against, but adding a div with 100% width made no difference. I applied text-align to the parent of the div and the nav-bar as well, but this had no effect.
 Checked content with chrome dev-tools, identified that the div took the intended space, but the a element wasn't. Realized that the a elements in the bar needed justify-content:center, this resolved the issue.
+
+used https://color.a11y.com/Contrast/ to resolve contrast issues in navbar and main
+
+used https://validator.w3.org/nu/ to resolve issue with a closing div tag that was placed behind the closing main tag.
+
+used https://validator.w3.org/checklink to resolve issue with image links that were using backslashes instead of forward slashes
