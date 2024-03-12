@@ -313,8 +313,7 @@ fieldset {
 
 /* Ingredients Section */
 .ingredients-section {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin: 1.5rem 1rem 1rem 1rem;
 }
 
 .ingredients-wrap {
@@ -338,6 +337,35 @@ fieldset {
 
 .ingredients-list li {
     margin-bottom: 10px;
+    color: black;
+}
+
+/* Instructions section */
+.instructions-section {
+    text-align: center;
+    margin: 1.5rem 1rem 1rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.instructions-section > div {
+    margin-bottom: 3rem;
+}
+
+.instructions-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.instructions-section h4,.instructions-section h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.instructions-section p {
+    margin-bottom: 1rem;
     color: black;
 }
 
@@ -527,7 +555,7 @@ fieldset {
     .recipe-hero {
         display: flex;
         flex-direction: column;
-        margin: 1.5rem 3rem 10% 0;
+        margin: 1.5rem 3rem 10% 1rem;
     }
 
     .recipe-hero-img {
