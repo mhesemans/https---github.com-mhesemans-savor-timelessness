@@ -217,6 +217,10 @@ padding-bottom: 1rem;
 
 /* contact page styling */
 /* Form styling */
+
+.text-centered > h2, .text-centered > p{
+    margin: 1rem 2rem;
+}
 .contact-form {
     flex-grow: 1;
     margin: 2rem 0.3rem;
