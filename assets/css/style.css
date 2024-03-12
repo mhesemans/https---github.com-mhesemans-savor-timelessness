@@ -170,6 +170,10 @@ main {
     justify-content: center;
 }
 
+#img-txt-wrap > p {
+    margin-bottom: 1.5rem;
+}
+
 .meet-the-author p {
     text-align: center;
     margin: 2rem 2rem;
