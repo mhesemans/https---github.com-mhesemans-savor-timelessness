@@ -290,6 +290,7 @@ fieldset {
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
 }
 .recipe-hero-img{
     width: 100%;
@@ -297,11 +298,19 @@ fieldset {
 }
 
 .recipe-hero-text{
+flex: 1 1 auto;
 display: flex;
 flex-direction: column;
 height: 100%;
 padding: 16px 0 24px;
+position: absolute;
+top: 0;
+justify-content: end;
+text-align: center;
+}
 
+.recipe-hero-text > h2,.recipe-hero-text > h4 {
+    background-color: rgba(212, 113, 26, 0.5);
 }
 
 /* Media Query: smaller mobiles (318px and lower) */
