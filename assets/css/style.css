@@ -249,6 +249,7 @@ fieldset {
 .placeholder-image>img {
     flex-grow: 1;
     width: 100%;
+    max-height: 400px;
 }
 
 /* Submit button styling */
