@@ -514,6 +514,46 @@ fieldset {
         width: 100%;
         max-height: 400px;
     }
+
+    /* recipe styling */
+    #recipe-wrap-laptop{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+
+    .recipe-hero {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 3rem 10% 0;
+    }
+
+    .recipe-hero-img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        max-width:600px ;
+        margin-top: 0;
+    }
+
+    .recipe-hero-text {
+        position: static;
+        padding: 20px;
+        background-color: rgba(255, 165, 0, 0.7); /* Semi-transparent orange background */
+        color: #fff; /* White text color for contrast */
+        border-radius: 0 0 10px 10px;
+        max-width:600px ;
+    }
+
+    .ingredients-section {
+        width: 45%;
+        max-width:600px ;
+    }
+
+    .ingredients-section li {
+    margin-right: 10px;
+    }
 }
 
 /* Media Query: laptops and larger (1200 px and up), previously 1080px but changed to match chrome devtools option */
