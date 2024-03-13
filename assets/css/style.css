@@ -16,7 +16,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #337061;
 }
+
 
 /* style for header title */
 
@@ -126,6 +128,8 @@ main {
 /* Hero image styling */
 .hero-img>img {
     width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 /* Hero text styling */
@@ -644,5 +648,14 @@ fieldset {
     .instructions-wrap>div>div>p{
     margin-left: 2rem;
     max-width: 300px;
+    }
+}
+
+/* media query for screensize over 1440px */
+@media screen and (min-width:1440px) {
+    .hero-text,#section-wrap,.book-images{
+        align-content: center;
+        width: 1440px;
+        margin: auto;
     }
 }
