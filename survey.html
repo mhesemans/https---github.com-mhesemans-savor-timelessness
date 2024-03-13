@@ -53,55 +53,55 @@
                 Thank you for your interest in our recipe book! Your responses will help us determine the printing
                 quantity and distribution options.
             </p>
-        <div id="section-wrap">
-            <div class="form-wrap">
-                <form method="get" action="form-submitted.html" class="survey-form">
-                    <fieldset>
-                        <legend>What type of cover are you interested in?</legend>
-                        <label>
-                            <input type="radio" name="coverType" value="paperback" required>
-                            Paperback
-                        </label>
-                        <br>
-                        <label>
-                            <input type="radio" name="coverType" value="hardcover">
-                            Hardcover
-                        </label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Is this copy for yourself, or a gift?</legend>
-                        <label>
-                            <input type="radio" name="recipientType" value="forMyself" required>
-                            For myself
-                        </label>
-                        <br>
-                        <label>
-                            <input type="radio" name="recipientType" value="gift">
-                            This is a gift
-                        </label>
-                        <div id="quantityInput" style="display: none;">
-                            <label for="quantity">What quantity would you gift?</label>
+            <div id="section-wrap">
+                <div class="form-wrap">
+                    <form method="get" action="form-submitted.html" class="survey-form">
+                        <fieldset>
+                            <legend>What type of cover are you interested in?</legend>
+                            <label>
+                                <input type="radio" name="coverType" value="paperback" required>
+                                Paperback
+                            </label>
                             <br>
-                            <input type="number" id="quantity" name="quantity" min="1">
-                        </div>
-                    </fieldset>
+                            <label>
+                                <input type="radio" name="coverType" value="hardcover">
+                                Hardcover
+                            </label>
+                        </fieldset>
 
-                    <fieldset class="input-align">
-                        <legend>Notify me (optional)</legend>
-                        <label for="preferredName">Preferred Name:</label>
-                        <br>
-                        <input type="text" id="preferredName" name="preferredName">
-                        <br>
-                        <label for="email">Email Address:</label>
-                        <br>
-                        <input type="email" id="email" name="email">
-                    </fieldset>
-                    <button type="submit" class="submit-button">Submit</button>
-                </form>
+                        <fieldset>
+                            <legend>Is this copy for yourself, or a gift?</legend>
+                            <label>
+                                <input type="radio" name="recipientType" value="forMyself" required>
+                                For myself
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" name="recipientType" value="gift">
+                                This is a gift
+                            </label>
+                            <div id="quantityInput" style="display: none;">
+                                <label for="quantity">What quantity would you gift?</label>
+                                <br>
+                                <input type="number" id="quantity" name="quantity" min="1">
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="input-align">
+                            <legend>Notify me (optional)</legend>
+                            <label for="preferredName">Preferred Name:</label>
+                            <br>
+                            <input type="text" id="preferredName" name="preferredName">
+                            <br>
+                            <label for="email">Email Address:</label>
+                            <br>
+                            <input type="email" id="email" name="email">
+                        </fieldset>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+                <div class="placeholder-image"><img src="./assets/images/placeholder.png"></div>
             </div>
-            <div class="placeholder-image"><img src="./assets/images/placeholder.png"></div>
-        </div>
         </section>
     </main>
 
@@ -133,25 +133,25 @@
     </footer>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <script>
+        const giftRadio = document.querySelector('input[name="recipientType"][value="gift"]');
+        const quantityInput = document.getElementById('quantityInput');
+
+        giftRadio.addEventListener('change', function () {
+            if (this.checked) {
+                quantityInput.style.display = 'block';
+            } else {
+                quantityInput.style.display = 'none';
+            }
+        });
+
+        const forMyselfRadio = document.querySelector('input[name="recipientType"][value="forMyself"]');
+        forMyselfRadio.addEventListener('change', function () {
+            if (this.checked) {
+                quantityInput.style.display = 'none';
+            }
+        });
+    </script>
 </body>
-<script>
-    const giftRadio = document.querySelector('input[name="recipientType"][value="gift"]');
-    const quantityInput = document.getElementById('quantityInput');
-
-    giftRadio.addEventListener('change', function () {
-        if (this.checked) {
-            quantityInput.style.display = 'block';
-        } else {
-            quantityInput.style.display = 'none';
-        }
-    });
-
-    const forMyselfRadio = document.querySelector('input[name="recipientType"][value="forMyself"]');
-    forMyselfRadio.addEventListener('change', function () {
-        if (this.checked) {
-            quantityInput.style.display = 'none';
-        }
-    });
-</script>
 
 </html>
