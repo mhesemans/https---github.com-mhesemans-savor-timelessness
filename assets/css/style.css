@@ -613,6 +613,13 @@ fieldset {
         grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
     }
 
+    .instructions-wrap{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+    }
+
     .instructions-wrap>div{
     display: flex;
     flex-direction: column;
@@ -628,6 +635,6 @@ fieldset {
 
     .instructions-wrap>div>div>p{
     margin-left: 2rem;
-    max-width: 400px;
+    max-width: 300px;
     }
 }
