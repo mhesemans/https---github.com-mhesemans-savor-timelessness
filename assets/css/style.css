@@ -313,6 +313,7 @@ fieldset {
 }
 
 .recipe-hero-text h2,
+.recipe-hero-text h3,
 .recipe-hero-text h4 {
     padding-bottom: 6px;
 }
@@ -374,6 +375,7 @@ fieldset {
 }
 
 .instructions-section h4,
+.instructions-section h3,
 .instructions-section h2 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
