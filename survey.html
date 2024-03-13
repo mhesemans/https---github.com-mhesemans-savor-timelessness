@@ -18,7 +18,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <!-- header -->
     <header>
@@ -29,6 +28,7 @@
         </div>
         <!-- nav -->
         <nav class="nav-bar">
+            <!-- buttons that navigate to index, preview and survey pages -->
             <ul class="nav-links">
                 <li class="nav-size-normal">
                     <div class="link-box"><a href="index.html" aria-label="Click to open homepage"
@@ -47,12 +47,14 @@
         </nav>
     </header>
     <main>
+        <!-- container that centers text for title and paragraph which explains purpose of the survey page -->
         <section class="text-center">
             <h2>Recipe Book Purchase Intent Form</h2>
             <p>
                 Thank you for your interest in our recipe book! Your responses will help us determine the printing
                 quantity and distribution options.
             </p>
+            <!-- container for placeholder image and form, controls displaying in row or column  -->
             <div id="section-wrap">
                 <div class="form-wrap">
                     <form method="get" action="form-submitted.html" class="survey-form">
@@ -68,8 +70,8 @@
                                 Hardcover
                             </label>
                         </fieldset>
-
                         <fieldset>
+                            <!-- this input will display optional quantity input when gift is selected -->
                             <legend>Is this copy for yourself, or a gift?</legend>
                             <label>
                                 <input type="radio" name="recipientType" value="forMyself" required>
@@ -80,13 +82,14 @@
                                 <input type="radio" name="recipientType" value="gift">
                                 This is a gift
                             </label>
+                            <!-- optional quantity input that only displays when gift is selected -->
                             <div id="quantityInput" style="display: none;">
                                 <label for="quantity">What quantity would you gift?</label>
                                 <br>
                                 <input type="number" id="quantity" name="quantity" min="1">
                             </div>
                         </fieldset>
-
+                        <!-- optional fields for collecting preferred name and emailaddress-->
                         <fieldset class="input-align">
                             <legend>Notify me (optional)</legend>
                             <label for="preferredName">Preferred Name:</label>
@@ -105,7 +108,6 @@
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer>
         <ul id="footer-icons">
@@ -130,29 +132,30 @@
                     <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-
     </footer>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-    <script>
-        const giftRadio = document.querySelector('input[name="recipientType"][value="gift"]');
-        const quantityInput = document.getElementById('quantityInput');
+    <!-- script to make optional quantity form input appear -->
+    <script>        
+        const giftRadio = document.querySelector('input[name="recipientType"][value="gift"]'); //checks if gift radio button is selected
+        const quantityInput = document.getElementById('quantityInput'); //calls quantity input field
 
         giftRadio.addEventListener('change', function () {
+            //shows input if gift radio button is selected
             if (this.checked) {
                 quantityInput.style.display = 'block';
+            //hides input if gift radio button is not selected
             } else {
                 quantityInput.style.display = 'none';
             }
         });
-
-        const forMyselfRadio = document.querySelector('input[name="recipientType"][value="forMyself"]');
+        const forMyselfRadio = document.querySelector('input[name="recipientType"][value="forMyself"]'); // checks if formyself is selected
         forMyselfRadio.addEventListener('change', function () {
+            //if formyself is selected, the quantity input field will hide
             if (this.checked) {
                 quantityInput.style.display = 'none';
             }
         });
     </script>
 </body>
-
 </html>
