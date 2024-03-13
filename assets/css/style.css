@@ -342,7 +342,7 @@ fieldset {
 }
 
 /* Instructions section */
-.instructions-section {
+.instructions-section {    
     text-align: center;
     margin: 1.5rem 1rem 1rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -350,13 +350,21 @@ fieldset {
     padding: 20px;
 }
 
+.instructions-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .instructions-section>div {
     margin-bottom: 3rem;
 }
 
 .instructions-section img {
-    max-width: 100%;
+    max-width: 280px;
+    width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .instructions-section h4,
@@ -369,6 +377,7 @@ fieldset {
 .instructions-section p {
     margin-bottom: 1rem;
     color: black;
+    max-width: 500px;
 }
 
 /* Media Query: smaller mobiles (318px and lower) */
@@ -602,5 +611,23 @@ fieldset {
     /* styling to make 2 ingredients columns on 1024px  */
     .ingredients-list {
         grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
+    }
+
+    .instructions-wrap>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .instructions-wrap>div>div{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        text-align: left;
+        }
+
+    .instructions-wrap>div>div>p{
+    margin-left: 2rem;
+    max-width: 400px;
     }
 }
