@@ -46,8 +46,9 @@
             </ul>
         </nav>
     </header>
-    <main> 
-      <p id="registration-confirmation">Thank you for registering your interest, you will receive a notification when the book is available to order if you have provided your contact email address.</h2>
+    <main>
+        <p id="registration-confirmation">Thank you for registering your interest, you will receive a notification when
+            the book is available to order if you have provided your contact email address.</p>
     </main>
 
     <!-- Footer -->
@@ -79,24 +80,5 @@
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
-<script>
-    const giftRadio = document.querySelector('input[name="recipientType"][value="gift"]');
-    const quantityInput = document.getElementById('quantityInput');
-
-    giftRadio.addEventListener('change', function () {
-        if (this.checked) {
-            quantityInput.style.display = 'block';
-        } else {
-            quantityInput.style.display = 'none';
-        }
-    });
-
-    const forMyselfRadio = document.querySelector('input[name="recipientType"][value="forMyself"]');
-    forMyselfRadio.addEventListener('change', function () {
-        if (this.checked) {
-            quantityInput.style.display = 'none';
-        }
-    });
-</script>
 
 </html>
