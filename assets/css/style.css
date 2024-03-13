@@ -302,7 +302,7 @@ fieldset {
     left: 0;
     width: 100%;
     padding: 5px 5px 5px 0;
-    background-color: rgba(180,68,34, 0.5);
+    background-color: rgba(180, 68, 34, 0.5);
     color: #fff;
 }
 
@@ -327,6 +327,7 @@ fieldset {
     color: #2a442f;
     padding-bottom: 1rem;
 }
+
 /* autofill grid layout for ingredients, 2-3 columns for mobile */
 .ingredients-list {
     display: grid;
@@ -349,7 +350,7 @@ fieldset {
     padding: 20px;
 }
 
-.instructions-section > div {
+.instructions-section>div {
     margin-bottom: 3rem;
 }
 
@@ -358,7 +359,8 @@ fieldset {
     height: auto;
 }
 
-.instructions-section h4,.instructions-section h2 {
+.instructions-section h4,
+.instructions-section h2 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     color: black;
@@ -434,7 +436,7 @@ fieldset {
 
     .hero-text {
         font-size: 150%;
-        position:relative;
+        position: relative;
         max-width: 100%;
     }
 
@@ -449,19 +451,40 @@ fieldset {
     /* div container to allow text and image to be displayed side by side */
     #img-txt-wrap {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: start;
+        justify-content: space-evenly;
     }
 
     #author-img {
-        width: 50%;
-        height: auto;
+        max-height: 500px;
     }
 
     #img-txt-wrap p {
         margin-left: 20px;
-        width: 50%;
+        width: 45%;
+    }
+
+    /* book images styling */
+    .book-images {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: start;
+    }
+
+    .image-wrapper {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        max-width: 600px;        
+    }
+
+    .image-wrapper p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
     }
 
 }
@@ -518,18 +541,9 @@ fieldset {
     #img-txt-wrap p {
         font-size: 120%;
     }
-
-    /* book images styling, displays images next to meet the author section rather than below in a column */
-    .book-images {
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 33%;
-    }
-
-    .book-images img {
-        width: 90%;
+/* book-images styling */
+    .image-wrapper p {
+        font-size: 1.5rem;
     }
 
     /* survey form styling */
@@ -544,7 +558,7 @@ fieldset {
     }
 
     /* recipe styling */
-    #recipe-wrap-laptop{
+    #recipe-wrap-laptop {
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -561,36 +575,32 @@ fieldset {
     .recipe-hero-img {
         width: 100%;
         border-radius: 10px 10px 0 0;
-        max-width:600px ;
+        max-width: 600px;
         margin-top: 0;
     }
 
     .recipe-hero-text {
         position: static;
         padding: 20px;
-        background-color: rgba(255, 165, 0, 0.7); /* Semi-transparent orange background */
-        color: #fff; /* White text color for contrast */
+        background-color: rgba(255, 165, 0, 0.7);
+        /* Semi-transparent orange background */
+        color: #fff;
+        /* White text color for contrast */
         border-radius: 0 0 10px 10px;
-        max-width:600px ;
+        max-width: 600px;
     }
 
     .ingredients-section {
         width: 45%;
-        max-width:600px ;
+        max-width: 600px;
     }
 
     .ingredients-section li {
-    margin-right: 10px;
+        margin-right: 10px;
     }
-}
 
-/* Media Query: laptops and larger (1200 px and up), previously 1080px but changed to match chrome devtools option */
-@media screen and (min-width:1200px) {
-    .book-images {
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
+    /* styling to make 2 ingredients columns on 1024px  */
+    .ingredients-list {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
     }
 }
