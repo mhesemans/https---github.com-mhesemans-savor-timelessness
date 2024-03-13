@@ -308,7 +308,7 @@ fieldset {
     left: 0;
     width: 100%;
     padding: 5px 5px 5px 0;
-    background-color: rgba(180, 68, 34, 0.5);
+    background-color: rgba(237, 80, 31, 0.6);
     color: #fff;
 }
 
@@ -597,7 +597,7 @@ fieldset {
     .recipe-hero-text {
         position: static;
         padding: 20px;
-        background-color: rgba(255, 165, 0, 0.7);
+        background-color: rgba(237, 80, 31, 0.7);
         /* Semi-transparent orange background */
         color: #fff;
         /* White text color for contrast */
