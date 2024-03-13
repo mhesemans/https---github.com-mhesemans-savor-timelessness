@@ -230,11 +230,17 @@ footer {
 
 /* survey page styling */
 /* Form styling */
-
-.text-centered>h2,
-.text-centered>p {
-    margin: 1rem 2rem;
+.text-center {
+    text-align: center;
+    display: block;
+    width: 100%;
 }
+.text-center>h2,
+.text-center>p {
+    margin: 1rem 2rem;
+    font-size: 150%;
+}
+
 
 .survey-form {
     flex-grow: 1;
