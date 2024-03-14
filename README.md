@@ -59,3 +59,15 @@ By incorporating both mobile and desktop designs into the wireframes, the websit
 
 You can find the images in this folder: [Wireframes](/assets/Wireframes 'Wireframes')
 
+### Site Structure Overview
+
+Savor Timelessness has a staightforward structure, focusing on three main pages accessible through the navigation menu:
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/navigation.png" alt="Image of navigation bar">
+</div>
+
+**Home Page:** The Home Page welcomes visitors with a preview of the recipe book, showcasing the cover and providing a brief overview of the author.
+
+**Sample Recipe Page:** On this page, visitors can explore a sample recipe from her book. This section offers a glimpse into the dishes featured in the recipe collection, enticing visitors to discover more.
+
+**Survey Page:** The Survey Page provides an opportunity for users to express their interest in Maria's recipe book and provide their email address to be notified when the book is available for ordering.
