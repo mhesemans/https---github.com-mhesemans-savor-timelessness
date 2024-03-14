@@ -57,5 +57,5 @@ The wireframes underwent multiple iterations and refinements to fine-tune the la
 
 By incorporating both mobile and desktop designs into the wireframes, the website's development process facilitated responsive design and enables the website to adapt to various screen sizes and resolutions, delivering a visually appealing and user-friendly experience across all devices.
 
-Wireframes: /assets/Wireframes
+[Wireframes] (/assets/Wireframes)
 
