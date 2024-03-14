@@ -47,6 +47,8 @@ The project aims to deliver a well-crafted website, offering users an introducti
 
 - **Create a Positive User Experience:** Overall, the website aims to create a positive user experience by delivering professionally presented content, ensuring ease of use, and encouraging user interaction.
 
+[Back to top](<#contents>)
+
 ## Visual Design
 
 ### Wireframes
@@ -72,6 +74,12 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 
 **Survey Page:** The Survey Page provides an opportunity for users to express their interest in Maria's recipe book and provide their email address to be notified when the book is available for ordering.
 
+**Footer:** The footer section of Savor Timelessness pages features links to its respective social media platforms. These links are set to open in new tabs, ensuring seamless navigation for users. This section holds significance as it fosters user engagement and connectivity with Savor Timelessness through social media and the YouTube channel.
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/footer.png" alt="Image of the footer">
+</div>
+
 ### Fonts
 
 **Lato:** This is a sans serif typeface family and was selected for the title and navigation text, it feels friendly and elegant which made it a good fit as it would be used in elements that required a larger font size. The font was selected from [google fonts](https://fonts.google.com/specimen/Lato 'Google Fonts').
@@ -83,3 +91,10 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 <div align="center">
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/colour-palette.png" alt="Colour palette">
 </div>
+
+- The green hues were selected for their fresh and vibrant appearance, it reflects creativity and innovation.
+- The orange hues infuse warmth and energy into the website, creating a warm and welcoming atmosphere.
+- The almond was added for its neutral tone to highlight text within the page content.
+- Black and white were used for text elements to provide an optimal contrast.
+
+[Back to top](<#contents>)
