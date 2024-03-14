@@ -19,7 +19,6 @@ body {
     background-color: #337061;
 }
 
-
 /* style for header title */
 
 header {
@@ -59,6 +58,7 @@ header h1 {
 }
 
 /* div around links to give some spacing */
+
 .link-box {
     display: flex;
     flex-direction: row;
@@ -66,12 +66,14 @@ header h1 {
     width: 100%;
 }
 
-/* remove bulletpoints from nav, expand button width */
+/* remove bulletpoints from nav*/
+
 .nav-links li {
     list-style-type: none;
 }
 
 /* font and button styling for nav links adapted using information in https://www.w3schools.com/html/html_links.asp */
+
 .nav-links a {
     margin-right: 1px;
     color: #ffffff;
@@ -90,31 +92,39 @@ header h1 {
 }
 
 /* border-radius composed using https://www.w3schools.com/cssref/tryit.php?filename=trycss3_border-radius  */
+
 /* border-radius on bottom left corner for nav home button */
+
 #nav-link-home {
     border-radius: 8px 0 0 50px;
     padding-left: 20px;
 }
 
 /* border-radius on bottom right corner for nav survey button */
+
 #nav-link-survey {
     border-radius: 0 8px 50px 0;
     padding-right: 20px;
 }
+
+/* styling to control size of navigation buttons */
 
 .nav-size-normal {
     flex-grow: .8;
 }
 
 .nav-size-big {
-    flex-grow: 1.6;
+    flex-grow: 1.4;
 }
 
 /* color change on nav button hover and active*/
+
 .nav-bar .nav-links .active,
 .nav-links a:hover {
     background-color: #772b13;
 }
+
+/* background colour for main with flex grow to fill up space to footer */
 
 main {
     background-color: #337061;
@@ -125,7 +135,8 @@ main {
     color: #f5e0c8;
 }
 
-/* Hero image styling */
+/* Hero image styling, max width for +1440px screens */
+
 .hero-img>img {
     width: 100%;
     max-width: 1440px;
@@ -133,11 +144,14 @@ main {
 }
 
 /* Hero text styling */
+
 .hero-img {
     position: relative;
 }
 
+/* hero text styling */
 /* used https://www.w3schools.com/cssref/pr_class_position.php "try it yourself" to find best positioning */
+
 .hero-text {
     position: absolute;
     bottom: 5%;
@@ -163,12 +177,15 @@ main {
 }
 
 /* Meet the author section, column layout for mobile and tablets */
+
 .text-centered {
     display: flex;
     flex-direction: column;
     align-items: center;
     letter-spacing: 2px;
 }
+
+/* displays image and text in column */
 
 #img-txt-wrap {
     display: flex;
@@ -187,24 +204,25 @@ main {
 }
 
 #author-img {
-    height: 75vw;
+    height: 75vh;
     margin: 20px;
 }
 
 /* Footer - based on love running project by CodeInstitute */
+
+footer {
+    display: block;
+    background-color: #1FEDBB;
+    margin-top: 20px;
+}
+
 #footer-icons {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    bottom: 0;    
-}
-
-footer {
-    display: block;
-    background-color: #1FEDBB;
-    margin-top: 20px;
+    bottom: 0;
 }
 
 #footer-icons i {
@@ -213,7 +231,15 @@ footer {
     color: #456E4D;
 }
 
+/* hides the title for the book images off screen */
+#title-for-screenreader {
+    z-index: -999;
+    top: -50px;
+    position: absolute;
+}
+
 /* base styling for book images used for sizes smaller than laptop*/
+
 .book-images img {
     width: 100%;
 }
@@ -223,6 +249,8 @@ footer {
     margin: 0.5em;
 }
 
+/* container that displays content centered and in column */
+
 #section-wrap {
     padding-bottom: 1rem;
     display: flex;
@@ -231,21 +259,22 @@ footer {
     justify-content: space-around;
 }
 
-
-
 /* survey page styling */
 /* Form styling */
+
 .text-center {
     text-align: center;
     display: block;
     width: 100%;
 }
+
 .text-center>h2,
 .text-center>p {
     margin: 1rem 2rem;
     font-size: 150%;
 }
 
+/* styles background and content of form, limits width */
 
 .survey-form {
     flex-grow: 1;
@@ -258,6 +287,8 @@ footer {
     letter-spacing: normal;
 }
 
+/* text colour for form labels and legends */
+
 label,
 legend {
     color: #000000;
@@ -269,6 +300,7 @@ fieldset {
 }
 
 /* Placeholder image styling */
+
 .placeholder-image>img {
     flex-grow: 1;
     width: 100%;
@@ -276,6 +308,7 @@ fieldset {
 }
 
 /* Submit button styling */
+
 .submit-button {
     background-color: #B44422;
     color: #ffffff;
@@ -292,20 +325,26 @@ fieldset {
 }
 
 /* text styling on form submit page */
+
 #registration-confirmation {
     padding: 3rem 1rem;
 }
 
 /* recipe page styling */
 /* Recipe Hero Section */
+
 .recipe-hero {
     position: relative;
 }
+
+/* positioning of recipe-hero image */
 
 .recipe-hero-img {
     margin-top: 1rem;
     width: 100%;
 }
+
+/* positioning of recipe-hero text, background for hero text */
 
 .recipe-hero-text {
     position: absolute;
@@ -324,9 +363,12 @@ fieldset {
 }
 
 /* Ingredients Section */
+
 .ingredients-section {
     margin: 1.5rem 1rem 1rem 1rem;
 }
+
+/* background for ingredients */
 
 .ingredients-wrap {
     background-color: rgba(255, 255, 255, 0.8);
@@ -334,13 +376,16 @@ fieldset {
     padding: 20px;
 }
 
+/* places ingredients title center and above the ingredients column(s) */
+
 .ingredients-wrap h2 {
     text-align: center;
     color: #2a442f;
     padding-bottom: 1rem;
 }
 
-/* autofill grid layout for ingredients, 2-3 columns for mobile */
+/* autofill grid layout for ingredients, column layout */
+
 .ingredients-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(80px, 116px));
@@ -354,7 +399,10 @@ fieldset {
 }
 
 /* Instructions section */
-.instructions-section {    
+
+/* background for instructions */
+
+.instructions-section {
     text-align: center;
     margin: 1.5rem 1rem 1rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
@@ -362,7 +410,9 @@ fieldset {
     padding: 20px;
 }
 
-.instructions-wrap{
+/* container for images and text, column display, centered */
+
+.instructions-wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,20 +444,24 @@ fieldset {
 }
 
 /* Media Query: smaller mobiles (318px and lower) */
+
 @media screen and (max-width:318px) {
 
-    /* this style was added to better fit the hero text on the image as font-size was causing text to bleed into other areas */
+/* this style was added to better fit the hero text on the image as font-size was causing text to bleed into other areas */
+
     .hero-text {
         font-size: smaller;
         text-align: right;
         padding: 4px;
     }
-}
+} 
 
 /* Media Query: tablets and larger (768px and up) */
+
 @media screen and (min-width:768px) {
 
     /* Header */
+
     header {
         display: flex;
         flex-direction: row;
@@ -417,6 +471,7 @@ fieldset {
     }
 
     /* navigation buttons height and background*/
+
     .nav-bar,
     .nav-links {
         background-color: #1FEDBB;
@@ -430,6 +485,7 @@ fieldset {
     }
 
     /* removing rounding on link-boxes */
+
     #nav-link-home {
         border-radius: 0 0 0 0;
         padding-left: 20px;
@@ -444,10 +500,13 @@ fieldset {
         font-size: large;
     }
 
-    /* hiding quote as did not look as good on larger screen sizes */
+    /* hiding quote */
+
     .quote {
         display: none;
     }
+
+    /* hero image and content display */
 
     main .hero-img {
         display: flex;
@@ -471,6 +530,7 @@ fieldset {
     }
 
     /* div container to allow text and image to be displayed side by side */
+
     #img-txt-wrap {
         display: flex;
         flex-direction: row-reverse;
@@ -488,9 +548,10 @@ fieldset {
     }
 
     /* book images styling */
+
     .book-images {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         align-items: start;
     }
 
@@ -501,7 +562,7 @@ fieldset {
 
     .image-wrapper img {
         width: 100%;
-        max-width: 600px;        
+        max-width: 600px;
     }
 
     .image-wrapper p {
@@ -512,7 +573,9 @@ fieldset {
 }
 
 /* Media Query: laptops and larger (1024 px and up), previously 1080px but changed to match chrome devtools option */
+
 @media screen and (min-width:1024px) {
+
     header {
         display: flex;
         flex-direction: row;
@@ -521,7 +584,8 @@ fieldset {
         background-color: #1FEDBB;
     }
 
-    /* giving title area more space on the screen as the nav bar did not look as good when taking up half the space on larger screens */
+    /* giving title area more space on the screen */
+
     #title-box {
         background-color: #1FEDBB;
         width: 66%;
@@ -533,12 +597,14 @@ fieldset {
         font-size: large;
     }
 
+    /* width for nav-bar */
+
     .nav-bar {
         background-color: #337061;
         width: 33%;
     }
 
-    /* section wrap for author and book images */
+    /* section wrap for author and book images, changes direction to row */
 
     #section-wrap {
         display: flex;
@@ -548,6 +614,7 @@ fieldset {
     }
 
     /* meet the author styling */
+
     .text-centered {
         text-align: left;
         flex-grow: 2;
@@ -560,10 +627,14 @@ fieldset {
         letter-spacing: 3px;
     }
 
+    /* larger text*/
+
     #img-txt-wrap p {
         font-size: 120%;
     }
-/* book-images styling */
+
+    /* book-images styling */
+
     .image-wrapper p {
         font-size: 1.5rem;
     }
@@ -571,6 +642,7 @@ fieldset {
     /* survey form styling */
 
     /* Placeholder image styling */
+
     .placeholder-image>img {
         margin-left: 3rem;
         border-radius: 10px;
@@ -579,14 +651,14 @@ fieldset {
         max-height: 400px;
     }
 
-    /* recipe styling */
+    /* recipe styling, change direction from column to row */
+
     #recipe-wrap-laptop {
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: row;
     }
-
 
     .recipe-hero {
         display: flex;
@@ -605,12 +677,12 @@ fieldset {
         position: static;
         padding: 20px;
         background-color: rgba(237, 80, 31, 0.7);
-        /* Semi-transparent orange background */
         color: #fff;
-        /* White text color for contrast */
         border-radius: 0 0 10px 10px;
         max-width: 600px;
     }
+
+    /* sizing for ingredients section */
 
     .ingredients-section {
         width: 45%;
@@ -621,40 +693,50 @@ fieldset {
         margin-right: 10px;
     }
 
-    /* styling to make 2 ingredients columns on 1024px  */
+    /* styling to make ingredients columns on 1024px  */
+
     .ingredients-list {
         grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
     }
 
-    .instructions-wrap{
+    /* changes container to row direction */
+
+    .instructions-wrap {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: start;
         justify-content: space-evenly;
     }
 
-    .instructions-wrap>div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .instructions-wrap>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .instructions-wrap>div>div{
+    .instructions-wrap>div>div {
         display: flex;
         flex-direction: row;
         align-items: start;
         text-align: left;
-        }
+    }
 
-    .instructions-wrap>div>div>p{
-    margin-left: 2rem;
-    max-width: 300px;
+    .instructions-wrap>div>div>p {
+        margin-left: 2rem;
+        max-width: 300px;
     }
 }
 
 /* media query for screensize over 1440px */
+
 @media screen and (min-width:1440px) {
-    .hero-text,#section-wrap,.book-images,.instructions-section{
+    
+    /* sets a max width for page content in recipe and landing pages */
+
+    .hero-text,
+    #section-wrap,
+    .book-images,
+    .instructions-section {
         align-content: center;
         width: 1440px;
         margin: auto;
