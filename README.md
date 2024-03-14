@@ -6,7 +6,7 @@
 
 Savor Timelessness welcomes you to discover Maria's delightful recipe book! Maria, the creative mind behind the Savor Timelessness YouTube channel, shares her passion for cooking through this beautifully crafted cookbook. Dive into a sneak peek of the book's captivating cover, enticing content, and a delectable sample recipe. Take part in our survey to share your interest in the book and sign up for notifications when it's available to order.
 
-You can access the site through the following link: <a href="https://mhesemans.github.io/savor-timelessness/" target="_blank"> Savor Timelessness </a>
+You can access the site through the following link: <a href="https://mhesemans.github.io/savor-timelessness/" target="_blank" "savor timelessness"> Savor Timelessness </a>
 
 # Contents
 
@@ -57,5 +57,5 @@ The wireframes underwent multiple iterations and refinements to fine-tune the la
 
 By incorporating both mobile and desktop designs into the wireframes, the website's development process facilitated responsive design and enables the website to adapt to various screen sizes and resolutions, delivering a visually appealing and user-friendly experience across all devices.
 
-[Wireframes] (/assets/Wireframes)
+[Wireframes] (</assets/Wireframes> 'Wireframes')
 
