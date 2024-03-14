@@ -71,3 +71,15 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 **Sample Recipe Page:** On this page, visitors can explore a sample recipe from her book. This section offers a glimpse into the dishes featured in the recipe collection, enticing visitors to discover more.
 
 **Survey Page:** The Survey Page provides an opportunity for users to express their interest in Maria's recipe book and provide their email address to be notified when the book is available for ordering.
+
+### Fonts
+
+**Lato:** This is a sans serif typeface family and was selected for the title and navigation text, it feels friendly and elegant which made it a good fit as it would be used in elements that required a larger font size. The font was selected from [google fonts](https://fonts.google.com/specimen/Lato 'Google Fonts').
+
+**EB Garamond:** This is a clasic serif typeface selected for its elegant capitalization and rounded "a" and "e" giving the lowercase text a playful feel, it's meant to evoke a sense of familiarity to the subject of the website, a book. The font was selected from [google fonts](https://fonts.google.com/specimen/EB+Garamond 'Google Fonts').
+
+### Colours
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/colour-palette.png" alt="Colour palette">
+</div>
