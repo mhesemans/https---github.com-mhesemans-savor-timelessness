@@ -47,5 +47,15 @@ The project aims to deliver a well-crafted website, offering users an introducti
 
 - **Create a Positive User Experience:** Overall, the website aims to create a positive user experience by delivering professionally presented content, ensuring ease of use, and encouraging user interaction.
 
-## Features 
+## Visual Design
+
+### Wireframes
+
+This website's pages were designed in Balsamiq Wireframes following the principles of mobile-first design. The wireframes were initially structured for mobile devices to prioritize usability and functionality on smaller screens. This approach helps ensure that the website is accessible and user-friendly across various devices, from smartphones to desktop computers.
+
+The wireframes underwent multiple iterations and refinements to fine-tune the layout, navigation, and visual elements. Feedback from stakeholders and usability testing were incorporated into the design process to optimize the overall user experience.
+
+By incorporating both mobile and desktop designs into the wireframes, the website's development process facilitated responsive design and enables the website to adapt to various screen sizes and resolutions, delivering a visually appealing and user-friendly experience across all devices.
+
+Wireframes: /assets/Wireframes
 
