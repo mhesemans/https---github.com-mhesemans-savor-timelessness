@@ -153,8 +153,10 @@ Footer: The footer includes links to Savor Timelessness' social media profiles, 
 ## **Home Page Features:**
 
 <div align="center">
+<h2>Desktop<h2>
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section.png" alt="Image of the footer">
 </div>
+<h2>Mobile<h2>
 <div align="center">
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section-mobile.png" alt="Image of the footer">
 </div>
