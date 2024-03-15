@@ -8,9 +8,36 @@ Savor Timelessness welcomes you to discover Maria's delightful recipe book! Mari
 
 You can access the site through the following link: <a href="https://mhesemans.github.io/savor-timelessness/" target="_blank"> Savor Timelessness </a>
 
-# Contents
+# contents
 
-* [Objective](<#objective>)
+- [Objective](#objective)
+- [UX](#ux)
+   * [Target Audience](#target-audience)
+   * [User Stories](#user-stories)
+   * [Site Objectives](#site-objectives)
+   * [Visual Design](#visual-design)
+      + [Wireframes](#wireframes)
+      + [Site Structure Overview](#site-structure-overview)
+      + [Fonts](#fonts)
+      + [Colours](#colours)
+      + [Images](#images)
+- [Features](#features)
+   * [Navigation Bar and Footer:](#navigation-bar-and-footer)
+   * [Home Page Features:](#home-page-features)
+   * [Recipe Preview Page Features:](#recipe-preview-page-features)
+   * [Survey Page Features:](#survey-page-features)
+   * [Form Submittal Page](#form-submittal-page)
+- [Future Features](#future-features)
+   * [Order Form](#order-form)
+   * [Additional Recipes](#additional-recipes)
+- [Technologies Used](#technologies-used)
+   * [Validation](#validation)
+   * [Bugs](#bugs)
+      + [Known Bugs](#known-bugs)
+      + [Fixed Bugs](#fixed-bugs)
+   * [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 # Objective
 
@@ -206,3 +233,84 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
     <div align="center">
     <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/pagespeed-mobile-validation.png" alt="PageSpeed mobile Validation">
     </div>
+
+    - Notes:
+        - Best practice score affected by lower resolution of placeholder image.
+        - Performance affected by favicons and a layout shift caused by web font loading.
+
+- Colour Contrast additionally checked with [color.a11y](https://color.a11y.com/Contrast/ 'Color Contrast Accessibility Validator')
+    -Notes:
+        - All color pairs came back as a good contrast pair except 1.
+        - The offending color pair is a white text on a white background applied to the survey form, this color pair is not in effect as the color used within the form is black.
+
+- Webpage has been tested by sending the link to family members for feedback.
+    - Poco, Samsung, Huawei, Google pixl
+    - Laptop & Desktop (windows 10 and 11)
+    - No access to either iPhone or macbook
+    - Tested on Google Chrome, Edge and DuckDuckGo
+    - DuckDuckGo colours are reportedly more vibrant, but could not verify as I'm colourblind
+
+- Survey Form has been tested to ensure it does not submit without required information.
+
+- All external links open in a new browser tab.
+
+[Back to top](<#contents>)
+---
+
+## Bugs
+
+### Known Bugs
+
+- No current bugs known
+
+### Fixed Bugs
+
+- Flex-grow for nav-size-normal and nav-size-big wasn't working. Idenntified that .nav-links li has width 100% applied, removed width for the li style and this allowed flex-grow to function.
+
+- Nav link text was not centered, needed a div width to reference against but adding a div with 100% width made no difference. I applied text-align to the parent of the div and the nav-bar as well, but this had no effect.
+Checked content with chrome dev-tools, identified that the div took the intended space, but the a element wasn't. Realized that the a elements in the bar needed justify-content:center, this resolved the issue.
+
+- Book-Images initially were a column next to the meet the author content, the images did not seem to take up the intended space properly for screensizes larger than 1024px and smaller than 1440px. Options were to either user overflow, however that would have negatively impacted the image, or to move the images below the meet the author content, side to side. This had a positive layout impact so I opted for this.
+
+- Several colour contrast issues as the green background initially used was not bright or dark enough so neither white nor black font colour was resolving the issue. Darkened the background colour and this resolved the contrast issues.
+
+- Contrast issue warning for nav buttons, changed the font weight to bold and this resolved the issue.
+
+- Web page did not look that well in larger screen sizes, resolved this by applying max-width of 1440 on hero image, hero text and other content blocks.
+
+- used https://validator.w3.org/nu/ to resolve issue with a closing div tag that was placed behind the closing main tag.
+
+- used https://validator.w3.org/checklink to resolve issue with image links that were using backslashes instead of forward slashes
+
+[Back to top](<#contents>)
+---
+
+## Deployment
+
+- The site was deployed to GitHub pages.
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Wait untill banner text identifies that the branch was successfully deployed
+  - Do a little dance when successful
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+[Back to top](<#contents>)
+---
+
+# Credits
+
+* Fonts from [Google Fonts](https://fonts.google.com/)
+* Favicons made in [Gimp](https://www.gimp.org/)
+* Used recipe hero image from: [pixexid](https://pixexid.com/image/ mouth-watering-italian-pasta-dish-parmesan-sprinkles-atop-a-swirl-of-tomato-lad-fag2uvhr)
+* Used boiling pasta image from: [pexels](https://www.pexels.com/photo/uncooked-pasta-in-a-pot-with-boiling-water-10608701/)
+* Used pasta sauce in pan image from [wikimedia](https://commons.wikimedia.org/wiki/File:Making_tomato_sauce_for_pasta_dish.jpg)
+* Used cherry tomatoes and garlic image from [pexels](https://www.pexels.com/photo/red-tomatoes-on-white-ceramic-plate-4963495/)
+* Used pasta image from [wikimedia](https://commons.wikimedia.org/wiki/File:Linguine_al_pomodoro.jpg)
+* Meet the Author text generated by ChatGPT
+* Recipe steps rewritten by ChatGPT to make them sound a touch whimsical
+* Any code that was used or influenced from a site has been commented and credited within the code
+
+# Acknowledgements
+
+This website was created for the 1st portfolio projects for the CodeInstitute while participating in the Full Stack Software Developer Diploma course. Special thanks to my mentor Rory Sheridan for testing, advice and feedback & Cohort Facilitator Amy Richardson for providing advice and documentation.
