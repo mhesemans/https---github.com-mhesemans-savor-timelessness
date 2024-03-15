@@ -80,11 +80,11 @@ The project aims to deliver a well-crafted website, offering users an introducti
 
 ### Wireframes
 
-    This website's pages were designed in Balsamiq Wireframes following the principles of mobile-first design. The wireframes were initially structured for mobile devices to prioritize usability and functionality on smaller screens. This approach helps ensure that the website is accessible and user-friendly across various devices, from smartphones to desktop computers.
+This website's pages were designed in Balsamiq Wireframes following the principles of mobile-first design. The wireframes were initially structured for mobile devices to prioritize usability and functionality on smaller screens. This approach helps ensure that the website is accessible and user-friendly across various devices, from smartphones to desktop computers.
 
-    The wireframes underwent multiple iterations and refinements to fine-tune the layout, navigation, and visual elements. Feedback from stakeholders and usability testing were incorporated into the design process to optimize the overall user experience.
+The wireframes underwent multiple iterations and refinements to fine-tune the layout, navigation, and visual elements. Feedback from stakeholders and usability testing were incorporated into the design process to optimize the overall user experience.
 
-    By incorporating both mobile and desktop designs into the wireframes, the website's development process facilitated responsive design and enables the website to adapt to various screen sizes and resolutions, delivering a visually appealing and user-friendly experience across all devices.
+By incorporating both mobile and desktop designs into the wireframes, the website's development process facilitated responsive design and enables the website to adapt to various screen sizes and resolutions, delivering a visually appealing and user-friendly experience across all devices.
 
 You can find the images in this folder: [Wireframes](/assets/Wireframes 'Wireframes')
 
@@ -128,8 +128,8 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 
 ### Images
 
-    In Savor Timelessness, images play a crucial role in showcasing the quality and aesthetics of the book, including both paperback and hardcover versions. Specifically, within the recipe preview section, these images offer users a glimpse into the visual appeal of the featured recipes. Integrated thoughtfully throughout the website, these images enhance the browsing experience by providing engaging visuals that invite users to explore further.
-    The images were created using DeepAI and further modified by using the inpainting function from canva.com.
+In Savor Timelessness, images play a crucial role in showcasing the quality and aesthetics of the book, including both paperback and hardcover versions. Specifically, within the recipe preview section, these images offer users a glimpse into the visual appeal of the featured recipes. Integrated thoughtfully throughout the website, these images enhance the browsing experience by providing engaging visuals that invite users to explore further.
+The images were created using DeepAI and further modified by using the inpainting function from canva.com.
 
 [Back to top](<#contents>)
 ---
@@ -137,29 +137,29 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 # Features
 
 ## **Navigation Bar and Footer:**
-    Navigation Bar: The navigation bar ensures seamless navigation between different sections of the website, enhancing user experience and accessibility. Users can easily switch between the home page, recipe preview page, and survey page, facilitating smooth exploration of the website's content. The Navigation bar is fully responsive to different screen sizes.
+Navigation Bar: The navigation bar ensures seamless navigation between different sections of the website, enhancing user experience and accessibility. Users can easily switch between the home page, recipe preview page, and survey page, facilitating smooth exploration of the website's content. The Navigation bar is fully responsive to different screen sizes.
 
-    Footer: The footer includes links to Savor Timelessness' social media profiles, enabling users to stay connected and engaged beyond the website. By providing easy access to social media platforms, this feature encourages user interaction and fosters a sense of community.
+Footer: The footer includes links to Savor Timelessness' social media profiles, enabling users to stay connected and engaged beyond the website. By providing easy access to social media platforms, this feature encourages user interaction and fosters a sense of community.
 
 ## **Home Page Features:**
-    Hero Image and Text: The hero image and text section prominently showcases the essence of Savor Timelessness, inviting users to explore delicious recipes. This feature provides an engaging visual introduction to the website's content, enticing users to delve further into the culinary experience it offers.
+Hero Image and Text: The hero image and text section prominently showcases the essence of Savor Timelessness, inviting users to explore delicious recipes. This feature provides an engaging visual introduction to the website's content, enticing users to delve further into the culinary experience it offers.
 
-    Meet the Author Section: This section introduces users to Maria, the author behind Savor Timelessness, providing insights into her culinary journey and expertise. By putting a face to the creator, this feature establishes a personal connection with users, fostering trust and credibility in the recipes presented.
+Meet the Author Section: This section introduces users to Maria, the author behind Savor Timelessness, providing insights into her culinary journey and expertise. By putting a face to the creator, this feature establishes a personal connection with users, fostering trust and credibility in the recipes presented.
 
-    Book Images Section: The book images offer a glimpse into the content of the recipe book, showcasing its visual appeal and quality. This feature allows users to preview the book's aesthetics and presentation style, enticing them to explore further and make a future purchase.
+Book Images Section: The book images offer a glimpse into the content of the recipe book, showcasing its visual appeal and quality. This feature allows users to preview the book's aesthetics and presentation style, enticing them to explore further and make a future purchase.
 
 ## **Recipe Preview Page Features:**
-    Recipe Hero Image and Title: The recipe hero image and title provide a captivating preview of the featured recipe, sparking users' interest and curiosity. This feature sets the tone for the culinary experience offered on the recipe preview page, encouraging users to explore the recipe in more detail.
+Recipe Hero Image and Title: The recipe hero image and title provide a captivating preview of the featured recipe, sparking users' interest and curiosity. This feature sets the tone for the culinary experience offered on the recipe preview page, encouraging users to explore the recipe in more detail.
 
-    Ingredients List and Instructions with Images: The detailed ingredients list and step-by-step instructions, accompanied by images, offer a comprehensive guide for users to replicate the featured recipe. This feature enhances user understanding and confidence in following the recipe, ensuring a successful culinary outcome.
+Ingredients List and Instructions with Images: The detailed ingredients list and step-by-step instructions, accompanied by images, offer a comprehensive guide for users to replicate the featured recipe. This feature enhances user understanding and confidence in following the recipe, ensuring a successful culinary outcome.
 
 ## **Survey Page Features:**
-    Survey Form: The form on the survey page allows users to express their interest in the recipe book. By collecting user responses, this feature helps in gauging user preferences and demand, informing decisions regarding the book's printing quantity and distribution options.
+Survey Form: The form on the survey page allows users to express their interest in the recipe book. By collecting user responses, this feature helps in gauging user preferences and demand, informing decisions regarding the book's printing quantity and distribution options.
 
-    Placeholder Image: The placeholder image adds visual interest to the survey page, complementing the form content. While not directly functional, this feature contributes to the overall aesthetic appeal of the page, enhancing user engagement and experience.
+Placeholder Image: The placeholder image adds visual interest to the survey page, complementing the form content. While not directly functional, this feature contributes to the overall aesthetic appeal of the page, enhancing user engagement and experience.
 
 ## **Form Submittal Page**
-    Upon successfully submitting the form, this page assures users that their data has been received by providing a clear confirmation message.
+Upon successfully submitting the form, this page assures users that their data has been received by providing a clear confirmation message.
 
 [Back to top](<#contents>)
 ---
@@ -167,10 +167,10 @@ Savor Timelessness has a staightforward structure, focusing on three main pages 
 # Future Features
 
 ## **Order Form**
-    Intuitive order form designed to facilitate the seamless purchase of the recipe book. Users will be able to select their desired cover type, quantity, provide payment details, and input shipping information for efficient delivery.
+Intuitive order form designed to facilitate the seamless purchase of the recipe book. Users will be able to select their desired cover type, quantity, provide payment details, and input shipping information for efficient delivery.
 
 ## **Additional Recipes**
-    An array of recipes, from appetizers to desserts. Enhanced by not just images but embedded Youtube videos that guide the user through the entire culinary experience.
+An array of recipes, from appetizers to desserts. Enhanced by not just images but embedded Youtube videos that guide the user through the entire culinary experience.
 
 [Back to top](<#contents>)
 ---
