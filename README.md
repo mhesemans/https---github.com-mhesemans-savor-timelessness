@@ -314,3 +314,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 # Acknowledgements
 
 This website was created for the 1st portfolio projects for the CodeInstitute while participating in the Full Stack Software Developer Diploma course. Special thanks to my mentor Rory Sheridan for testing, advice and feedback & Cohort Facilitator Amy Richardson for providing advice and documentation.
+
+[Back to top](<#contents>)
+---
