@@ -154,36 +154,68 @@ Footer: The footer includes links to Savor Timelessness' social media profiles, 
 
 <div align="center">
 <p>Desktop<p>
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section.png" alt="Image of the footer">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section.png" alt="hero section">
 </div>
 
 <div align="center">
 <p>Mobile<p>
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section-mobile.png" alt="Image of the footer">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section-mobile.png" alt="hero section for mobile">
 </div>
 
 Hero Image and Text: The hero image and text section prominently showcases the essence of Savor Timelessness, inviting users to explore delicious recipes. This feature provides an engaging visual introduction to the website's content, enticing users to delve further into the culinary experience it offers.
 
 <div align="center">
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author.png" alt="Image of the footer">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author.png" alt="author section">
 </div>
 <div align="center">
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author-mobile.png" alt="Image of the footer">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author-mobile.png" alt="author section for mobile">
 </div>
 
 Meet the Author Section: This section introduces users to Maria, the author behind Savor Timelessness, providing insights into her culinary journey and expertise. By putting a face to the creator, this feature establishes a personal connection with users, fostering trust and credibility in the recipes presented.
 
 <div align="center">
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images.png" alt="Image of the footer">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images.png" alt="book images">
 </div>
 <div align="center">
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images-mobile.png" alt="Image of the footer">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images-mobile.png" alt="book images for mobile">
 </div>
 
 Book Images Section: The book images offer a glimpse into the content of the recipe book, showcasing its visual appeal and quality. This feature allows users to preview the book's aesthetics and presentation style, enticing them to explore further and make a future purchase.
 
 ## **Recipe Preview Page Features:**
+
+<div align="center">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/recipe-hero.png" alt="recipe hero">
+</div>
+<div align="center">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/recipe-hero-mobile.png" alt="recipe hero for mobile">
+</div>
+
 Recipe Hero Image and Title: The recipe hero image and title provide a captivating preview of the featured recipe, sparking users' interest and curiosity. This feature sets the tone for the culinary experience offered on the recipe preview page, encouraging users to explore the recipe in more detail.
+
+<div align="center">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/ingredients.png" alt="ingredients">
+</div>
+<div align="center">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/ingredients-mobile.png" alt="ingredients for mobile">
+</div>
+
+<div align="center">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/instructions.png" alt="instructions">
+</div>
+<div align="center">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/instructions-mobile.png" alt="instructions for mobile">
+</div>
 
 Ingredients List and Instructions with Images: The detailed ingredients list and step-by-step instructions, accompanied by images, offer a comprehensive guide for users to replicate the featured recipe. This feature enhances user understanding and confidence in following the recipe, ensuring a successful culinary outcome.
 
