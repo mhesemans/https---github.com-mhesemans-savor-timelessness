@@ -203,7 +203,6 @@ Recipe Hero Image and Title: The recipe hero image and title provide a captivati
 <p>Column count varies across devices<p>
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/ingredients.png" alt="ingredients">
 </div>
-<div align="center">
 
 <div align="center">
 <p>Desktop<p>
