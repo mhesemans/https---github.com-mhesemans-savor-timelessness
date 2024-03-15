@@ -137,14 +137,45 @@ The images were created using DeepAI and further modified by using the inpaintin
 # Features
 
 ## **Navigation Bar and Footer:**
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/navigation.png" alt="Image of navigation bar">
+</div>
+
 Navigation Bar: The navigation bar ensures seamless navigation between different sections of the website, enhancing user experience and accessibility. Users can easily switch between the home page, recipe preview page, and survey page, facilitating smooth exploration of the website's content. The Navigation bar is fully responsive to different screen sizes.
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/footer.png" alt="Image of the footer">
+</div>
 
 Footer: The footer includes links to Savor Timelessness' social media profiles, enabling users to stay connected and engaged beyond the website. By providing easy access to social media platforms, this feature encourages user interaction and fosters a sense of community.
 
 ## **Home Page Features:**
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section.png" alt="Image of the footer">
+</div>
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/hero-section-mobile.png" alt="Image of the footer">
+</div>
+
 Hero Image and Text: The hero image and text section prominently showcases the essence of Savor Timelessness, inviting users to explore delicious recipes. This feature provides an engaging visual introduction to the website's content, enticing users to delve further into the culinary experience it offers.
 
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author.png" alt="Image of the footer">
+</div>
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/meet-the-author-mobile.png" alt="Image of the footer">
+</div>
+
 Meet the Author Section: This section introduces users to Maria, the author behind Savor Timelessness, providing insights into her culinary journey and expertise. By putting a face to the creator, this feature establishes a personal connection with users, fostering trust and credibility in the recipes presented.
+
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images.png" alt="Image of the footer">
+</div>
+<div align="center">
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/book-images-mobile.png" alt="Image of the footer">
+</div>
 
 Book Images Section: The book images offer a glimpse into the content of the recipe book, showcasing its visual appeal and quality. This feature allows users to preview the book's aesthetics and presentation style, enticing them to explore further and make a future purchase.
 
