@@ -200,13 +200,10 @@ Book Images Section: The book images offer a glimpse into the content of the rec
 Recipe Hero Image and Title: The recipe hero image and title provide a captivating preview of the featured recipe, sparking users' interest and curiosity. This feature sets the tone for the culinary experience offered on the recipe preview page, encouraging users to explore the recipe in more detail.
 
 <div align="center">
-<p>Desktop<p>
+<p>Column count varies across devices<p>
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/ingredients.png" alt="ingredients">
 </div>
 <div align="center">
-<p>Mobile<p>
-  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/ingredients-mobile.png" alt="ingredients for mobile">
-</div>
 
 <div align="center">
 <p>Desktop<p>
@@ -220,11 +217,28 @@ Recipe Hero Image and Title: The recipe hero image and title provide a captivati
 Ingredients List and Instructions with Images: The detailed ingredients list and step-by-step instructions, accompanied by images, offer a comprehensive guide for users to replicate the featured recipe. This feature enhances user understanding and confidence in following the recipe, ensuring a successful culinary outcome.
 
 ## **Survey Page Features:**
+
+<div align="center">
+<p>Desktop<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/survey.png" alt="survey and placeholder">
+</div>
+<div align="center">
+<p>Mobile<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/survey-mobile.png" alt="survey and placeholder for mobile">
+</div>
+
 Survey Form: The form on the survey page allows users to express their interest in the recipe book. By collecting user responses, this feature helps in gauging user preferences and demand, informing decisions regarding the book's printing quantity and distribution options.
 
 Placeholder Image: The placeholder image adds visual interest to the survey page, complementing the form content. While not directly functional, this feature contributes to the overall aesthetic appeal of the page, enhancing user engagement and experience.
 
 ## **Form Submittal Page**
+
+<div align="center">
+<p>Message width varies across devices<p>
+  <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/form-submitted.png" alt="form submitted">
+</div>
+<div align="center">
+
 Upon successfully submitting the form, this page assures users that their data has been received by providing a clear confirmation message.
 
 [Back to top](<#contents>)
