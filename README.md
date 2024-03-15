@@ -237,7 +237,6 @@ Placeholder Image: The placeholder image adds visual interest to the survey page
 <p>Message width varies across devices<p>
   <img src="https://github.com/mhesemans/savor-timelessness/blob/main/assets/images/form-submitted.png" alt="form submitted">
 </div>
-<div align="center">
 
 Upon successfully submitting the form, this page assures users that their data has been received by providing a clear confirmation message.
 
